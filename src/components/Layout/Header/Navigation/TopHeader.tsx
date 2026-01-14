@@ -28,7 +28,7 @@ const TopHeader = () => {
         <ul className="flex gap-3">
           <li>
             <Link
-              href="https://t.me/detaplus"
+              href="https://t.me/DetaSoft"
               target="_blank"
               rel="nofollow"
               className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-white/20 transition"
@@ -43,7 +43,7 @@ const TopHeader = () => {
           </li>
           <li>
             <Link
-              href="https://wa.me/message/XEY4J3GUTZFED1"
+              href="https://wa.me/254594441907"
               target="_blank"
               rel="nofollow"
               className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-white/20 transition"
