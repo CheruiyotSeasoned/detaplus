@@ -104,7 +104,7 @@ const socialLinks: SocialLink[] = [
   },
   {
     imgSrc: '/images/social/whatsapp.png',
-    link: 'https://wa.me/25459441907',
+    link: 'https://wa.me/254759441907',
     alt: 'WhatsApp',
     width: 44,
     height: 44,

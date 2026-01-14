@@ -43,7 +43,7 @@ const TopHeader = () => {
           </li>
           <li>
             <Link
-              href="https://wa.me/25459441907"
+              href="https://wa.me/254759441907"
               target="_blank"
               rel="nofollow"
               className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-white/20 transition"
