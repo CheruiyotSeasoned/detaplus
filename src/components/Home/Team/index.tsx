@@ -405,12 +405,12 @@ const ContactSection: React.FC = () => {
                                     </div>
 
                                     <a
-                                        href="tel:+442045770974"
+                                        href="tel:+25459441907"
                                         className="flex items-center gap-2 text-sm px-3 py-2 rounded bg-gray-50 hover:bg-gray-100 transition-colors"
                                     >
                                         <Phone className="w-4 h-4 text-gray-600" />
                                         <span>
-                                            <span className="text-gray-600">+44</span> 20 4577 0974
+                                            <span className="text-gray-600">+254</span> 59 441 907
                                         </span>
                                     </a>
                                 </div>
