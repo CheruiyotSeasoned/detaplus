@@ -173,7 +173,7 @@ const Footer = () => {
             DetaPlus is a licensed registrar of companies worldwide. Support for clients looking for international company formation, licensing, consulting, business planning, auditing and trust funds. DetaPlus associates with professionalism, high-value consultations, transparent processes and trust.
           </p>
           <p>
-            DetaPlus is a trading name of STANDARD CORPORATE PARTNER, with principal business at Piekna 24 /26A, 00-549 Warsaw, Poland and regulated with license number: RDST-1873. Pricing info is indicative and subject to change. Material on the website is for information purposes only and is not investment or legal advice.
+            DetaPlus is a trading name of STANDARD CORPORATE PARTNER, with principal business at Adams Arcade Ngong Road-Nairobi, Kenya and regulated with license number: RDST-1873. Pricing info is indicative and subject to change. Material on the website is for information purposes only and is not investment or legal advice.
           </p>
           <span className="font-semibold">©2026 DetaPlus</span>
         </div>
