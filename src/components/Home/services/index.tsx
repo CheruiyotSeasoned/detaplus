@@ -15,7 +15,7 @@ const services: Service[] = [
     {
         title: 'Crypto Licenses',
         description: 'Find the best crypto license and legal set-up for your use case.',
-        href: 'https://legalbison.com/crypto-license/',
+        href: '/crypto-license/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/Frame-30.png',
         imgAlt: 'Crypto Licenses image',
         imgWidth: 142,
@@ -24,7 +24,7 @@ const services: Service[] = [
     {
         title: 'Investment Licenses',
         description: 'Increase your market share & license your investment services.',
-        href: 'https://legalbison.com/investment-license/',
+        href: '/investment-license/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/new-icons.png',
         imgAlt: 'Investment Licenses image',
         imgWidth: 120,
@@ -33,7 +33,7 @@ const services: Service[] = [
     {
         title: 'Bank License, Payment Institution, EMI',
         description: 'Become a licensed Payment Institution (PI) or Electronic Money Institution (EMI) globally.',
-        href: 'https://legalbison.com/banking-license/',
+        href: '/banking-license/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2024/01/purse.svg',
         imgAlt: 'Bank License, Payment Institution, EMI image',
         imgWidth: 120,
@@ -42,7 +42,7 @@ const services: Service[] = [
     {
         title: 'Gambling & Gaming License',
         description: 'License your business: online casino, betting, lottery, mobile gambling, and much more.',
-        href: 'https://legalbison.com/gambling-license/',
+        href: '/gambling-license/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/elevator.png',
         imgAlt: 'Gambling & Gaming License image',
         imgWidth: 120,
@@ -51,7 +51,7 @@ const services: Service[] = [
     {
         title: 'Bank Account Opening',
         description: 'Get assistance in opening a bank account for your existing company.',
-        href: 'https://legalbison.com/business-bank-account/',
+        href: '/business-bank-account/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/bag.png',
         imgAlt: 'Bank Account Opening image',
         imgWidth: 120,
@@ -60,7 +60,7 @@ const services: Service[] = [
     {
         title: 'Company Registration',
         description: 'Compare the best jurisdictions for doing business and register your company.',
-        href: 'https://legalbison.com/company-registration/',
+        href: '/company-registration/',
         imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/doc.png',
         imgAlt: 'Company Registration image',
         imgWidth: 152,
