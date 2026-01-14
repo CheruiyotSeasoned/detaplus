@@ -97,14 +97,14 @@ const footerColumns: FooterColumn[] = [
 const socialLinks: SocialLink[] = [
   {
     imgSrc: '/images/social/telegram.png',
-    link: 'https://t.me/detaplus',
+    link: 'https://t.me/DetaSoft',
     alt: 'Telegram',
     width: 44,
     height: 44,
   },
   {
     imgSrc: '/images/social/whatsapp.png',
-    link: 'https://wa.me/message/XEY4J3GUTZFED1',
+    link: 'https://wa.me/25459441907',
     alt: 'WhatsApp',
     width: 44,
     height: 44,
