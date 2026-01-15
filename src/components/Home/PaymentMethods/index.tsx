@@ -41,7 +41,7 @@ const PaymentMethodsSection = () => {
     ];
 
     return (
-        <section className="bg-[#814AC8] py-8 lg:py-12">
+        <section className="bg-gray-100 py-8 lg:py-12">
             <div className="container mx-auto px-4 relative">
                 {/* Decorative line with centered label */}
                 <div className="w-full h-0.5 bg-gray-300"></div>
