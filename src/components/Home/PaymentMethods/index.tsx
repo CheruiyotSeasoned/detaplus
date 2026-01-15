@@ -41,7 +41,7 @@ const PaymentMethodsSection = () => {
     ];
 
     return (
-        <section className="bg-gray-50 py-8 lg:py-12">
+        <section className="bg-[#814AC8] py-8 lg:py-12">
             <div className="container mx-auto px-4 relative">
                 {/* Decorative line with centered label */}
                 <div className="w-full h-0.5 bg-gray-300"></div>
@@ -56,7 +56,7 @@ const PaymentMethodsSection = () => {
                     {paymentMethods.map((method, index) => (
                         <div
                             key={index}
-                            className="max-w-[80px] max-h-[80px] md:max-w-[200px] md:max-h-[200px] flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer"
+                            className="max-w-[80px] max-h-[80px] md:max-w-[200px] md:max-h-[200px] flex items-center justify-center hover:grayscale-0 transition-all duration-300 cursor-pointer"
                         >
                             <Image
                                 src={method.image}

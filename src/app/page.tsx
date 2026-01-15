@@ -8,6 +8,7 @@ import DetaplusFAQSection from '@/components/Home/Dedication/indes'
 import ServicesSections from '@/components/Home/Juridiction'
 import PaymentMethodsSection from '@/components/Home/PaymentMethods'
 import ContactSection from '@/components/Home/Team'
+import PartnersSection from '@/components/Home/Partners'
 export const metadata: Metadata = {
   title: 'DetaPlus - Licence and compliance management',
 }
@@ -22,6 +23,7 @@ export default function Home() {
       <DetaplusFAQSection />
       <ServicesSections />
       <PaymentMethodsSection />
+      <PartnersSection />
       <ContactSection />
     </main>
   )

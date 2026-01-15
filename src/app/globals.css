@@ -89,6 +89,29 @@
     color: var(--color-dark-muted);
   }
   
+  .modal-input {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  background: transparent;
+  color: inherit;
+}
+
+.modal-primary-btn {
+  width: 100%;
+  background: #814ac8;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.modal-primary-btn:hover {
+  background: #6b3dad;
+}
+
   /* Better focus states */
   input:focus,
   textarea:focus,
