@@ -78,19 +78,19 @@ const DetaplusFAQSection: React.FC = () => {
   };
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 bg-gray-50">
+    <section className="py-16 md:py-20 lg:py-24 bg-dark" id="detaplus-faq-section">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
-          <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-3">
+          <p className="text-sm font-semibold text-[#814AC8] dark:text-[#9D6EDB] uppercase tracking-wide mb-3">
             A dedicated team with multidisciplinary expertise
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             What can Detaplus do for you?
           </h2>
         </div>
 
-        <div className="prose max-w-none mb-12 text-gray-700 leading-relaxed">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-4">
+        <div className="prose max-w-none mb-12 text-white leading-relaxed">
+          <h3 className="text-2xl font-semibold text-white/80 mb-4">
             Digital Solutions, Development & Consulting
           </h3>
           <p>
@@ -106,7 +106,7 @@ const DetaplusFAQSection: React.FC = () => {
             industry standards. Our goal is to deliver digital solutions that work seamlessly, helping you enter the market 
             quickly while benefiting from our extensive experience in software development and project management.
           </p>
-          <p className="font-semibold text-gray-900">
+          <p className="font-semibold text-[#814AC8] dark:text-[#9D6EDB]">
             In short: Detaplus saves you time and resources while delivering reliable, scalable digital solutions.
           </p>
         </div>

@@ -46,7 +46,7 @@ const PaymentMethodsSection = () => {
                 {/* Decorative line with centered label */}
                 <div className="w-full h-0.5 bg-gray-300"></div>
                 <div className="flex justify-center relative -top-3">
-                    <span className="px-3 block bg-gray-50 text-sm text-blue-600 font-semibold">
+                    <span className="px-3 block bg-gray-50 text-sm text-[#814AC8] font-semibold">
                         Payment methods
                     </span>
                 </div>

@@ -89,14 +89,14 @@ const ContactSection: React.FC = () => {
     const stepPercent = () => (currentStep / 4) * 100;
 
     return (
-        <section className="py-12 bg-white">
+        <section className="py-12 bg-dark" id="contact-section">
             <div className="container mx-auto px-4">
                 {/* Header */}
                 <div className="flex flex-col gap-6 w-full mb-12">
                     <h2 className="text-4xl font-bold">
                         Get in touch with our expert: Brian Manono Matoke
                     </h2>
-                    <p className="text-gray-700">
+                    <p className="text-white/80 text-lg max-w-3xl">
                         Our legal team is ready to assist you with company registration, licensing,
                         compliance, and more.
                     </p>
@@ -108,16 +108,16 @@ const ContactSection: React.FC = () => {
                         {/* Progress Bar */}
                         <div className="mb-8">
                             <div className="flex items-center justify-between mb-2">
-                                <span className="text-sm font-semibold text-blue-600">
+                                <span className="text-sm font-semibold text-[#814AC8]">
                                     STEP {currentStep}
                                 </span>
-                                <span className="text-sm text-gray-500">
+                                <span className="text-sm text-white/80">
                                     {currentStep} of 4
                                 </span>
                             </div>
                             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
                                 <div
-                                    className="h-full bg-blue-600 transition-all duration-300"
+                                    className="h-full bg-[#814AC8] transition-all duration-300"
                                     style={{ width: `${stepPercent()}%` }}
                                 ></div>
                             </div>
@@ -141,12 +141,12 @@ const ContactSection: React.FC = () => {
                                                 key={option.value}
                                                 onClick={() => handleOptionSelect(1, option.value)}
                                                 className={`cursor-pointer p-6 border-2 rounded-lg transition-all ${formData.businessType === option.value
-                                                        ? 'border-blue-600 bg-blue-50'
-                                                        : 'border-gray-200 hover:border-blue-600'
+                                                        ? 'border-[#814AC8] bg-[#814AC8] text-white'
+                                                        : 'border-white hover:border-[#814AC8]'
                                                     }`}
                                             >
                                                 <h4 className="text-xl font-bold mb-2">{option.title}</h4>
-                                                <p className="text-gray-600">{option.desc}</p>
+                                                <p className="text-white/80">{option.desc}</p>
                                             </div>
                                         ))}
                                     </div>
@@ -175,12 +175,12 @@ const ContactSection: React.FC = () => {
                                                 key={option.value}
                                                 onClick={() => handleOptionSelect(2, option.value, true)}
                                                 className={`cursor-pointer p-6 border-2 rounded-lg transition-all ${formData.services?.includes(option.value)
-                                                        ? 'border-blue-600 bg-blue-50'
-                                                        : 'border-gray-200 hover:border-blue-600'
+                                                        ? 'border-[#814AC8] bg-[#814AC8] text-white'
+                                                        : 'border-white hover:border-[#814AC8]'
                                                     }`}
                                             >
                                                 <h4 className="text-xl font-bold mb-2">{option.title}</h4>
-                                                <p className="text-gray-600">{option.desc}</p>
+                                                <p className="text-white/80">{option.desc}</p>
                                             </div>
                                         ))}
                                     </div>
@@ -207,8 +207,8 @@ const ContactSection: React.FC = () => {
                                                 key={option.value}
                                                 onClick={() => handleOptionSelect(3, option.value, true)}
                                                 className={`cursor-pointer p-6 border-2 rounded-lg transition-all ${formData.jurisdictions?.includes(option.value)
-                                                        ? 'border-blue-600 bg-blue-50'
-                                                        : 'border-gray-200 hover:border-blue-600'
+                                                        ? 'border-[#814AC8] bg-[#814AC8] text-white'
+                                                        : 'border-white hover:border-[#814AC8]'
                                                     }`}
                                             >
                                                 <h4 className="text-xl font-bold mb-2">{option.title}</h4>
@@ -289,11 +289,11 @@ const ContactSection: React.FC = () => {
                                                 name="agreeData"
                                                 checked={formData.agreeData}
                                                 onChange={handleChange}
-                                                className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                                                className="w-4 h-4 text-[#814AC8] border-gray-300 rounded focus:ring-[#814AC8]"
                                                 required
                                             />
                                             <label>I agree to the{' '}
-                                                <a href="/privacy-policy" className="underline text-blue-600">
+                                                <a href="/privacy-policy" className="underline text-[#814AC8]">
                                                     Processing of Personal Data
                                                 </a>
                                             </label>
@@ -304,11 +304,11 @@ const ContactSection: React.FC = () => {
                                                 name="agreeTerms"
                                                 checked={formData.agreeTerms}
                                                 onChange={handleChange}
-                                                className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                                                className="w-4 h-4 text-[#814AC8] border-gray-300 rounded focus:ring-[#814AC8]"
                                                 required
                                             />
                                             <label>I agree to the{' '}
-                                                <a href="/terms-of-service" className="underline text-blue-600">
+                                                <a href="/terms-of-service" className="underline text-[#814AC8]">
                                                     Terms of Service
                                                 </a>
                                             </label>
@@ -318,7 +318,7 @@ const ContactSection: React.FC = () => {
                                     {/* Submit Button */}
                                     <button
                                         type="submit"
-                                        className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+                                        className="bg-[#814AC8] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#6a3a9e] transition-colors duration-200"
                                     >
                                         Send Message
                                     </button>
@@ -331,7 +331,7 @@ const ContactSection: React.FC = () => {
                                     <button
                                         type="button"
                                         onClick={prevStep}
-                                        className={`px-6 py-2 rounded-lg border border-gray-300 ${currentStep === 1 ? 'invisible' : 'visible'
+                                        className={`px-6 py-2 rounded-lg border border-white ${currentStep === 1 ? 'invisible' : 'visible'
                                             }`}
                                     >
                                         Previous
@@ -339,7 +339,7 @@ const ContactSection: React.FC = () => {
                                     <button
                                         type="button"
                                         onClick={nextStep}
-                                        className="px-6 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+                                        className="px-6 py-2 rounded-lg bg-[#814AC8] text-white hover:bg-[#6a3a9e] transition-colors"
                                     >
                                         Next
                                     </button>
@@ -350,7 +350,7 @@ const ContactSection: React.FC = () => {
 
                     {/* Consultant Card */}
                     <div className="w-full lg:max-w-[427px]">
-                        <div className="relative bg-white p-6 border border-gray-200 rounded-xl h-full">
+                        <div className="relative bg-[#0A0A0A] p-6 border border-[#814AC8] rounded-xl h-full">
                             <div className="absolute lg:static top-0 left-6 -translate-y-1/2 lg:translate-y-0 w-[100px] h-[100px] flex-none mb-4 lg:mb-0">
                                 {/* <img
                                     src="/api/placeholder/150/150"
@@ -358,7 +358,7 @@ const ContactSection: React.FC = () => {
                                     className="w-full h-full object-cover rounded-lg"
                                 /> */}
                                 <Image
-                                    src="/api/placeholder/150/150"
+                                    src="/images/people/user.png"
                                     alt="Brian Manono Matoke"
                                     width={64}          // set your desired width
                                     height={64}         // set your desired height
@@ -371,10 +371,10 @@ const ContactSection: React.FC = () => {
                                     <span className="block font-bold text-xl">
                                         Brian Manono Matoke
                                     </span>
-                                    <span className="block text-sm text-blue-600">
+                                    <span className="block text-sm text-[#814AC8] font-semibold">
                                         Lead Consultant - Partner
                                     </span>
-                                    <p className="text-sm text-gray-700">
+                                    <p className="text-sm text-white/80">
                                         FinTech & Legal specialist with 10+ years of experience
                                         in company formations, licensing, and regulatory compliance.
                                     </p>
@@ -389,7 +389,7 @@ const ContactSection: React.FC = () => {
                                             rel="noopener noreferrer"
                                             className="inline-flex items-center justify-center w-10 h-10 border border-gray-300 rounded hover:bg-gray-50 transition-colors"
                                         >
-                                            <Linkedin className="w-5 h-5 text-gray-600" />
+                                            <Linkedin className="w-5 h-5 text-blue" />
                                         </a>
                                     </div>
 

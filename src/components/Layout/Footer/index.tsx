@@ -113,7 +113,7 @@ const socialLinks: SocialLink[] = [
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12">
+    <footer className="bg-[#0A0A0A] py-12">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-6 py-5 xl:py-8 xl:border-y border-gray-200/30">
           {footerColumns.map((col, idx) => (
@@ -127,7 +127,7 @@ const Footer = () => {
                     <li key={i}>
                       <Link
                         href={item.href}
-                        className="text-gray-700 hover:text-blue-600 text-sm block"
+                        className="text-gray-400 hover:text-[#814AC8] text-sm block"
                       >
                         {item.title}
                       </Link>
@@ -168,12 +168,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3 mt-6 text-gray-600 text-sm">
+        <div className="flex flex-col gap-3 mt-6 text-white text-sm">
           <p>
             DetaPlus is a licensed registrar of companies worldwide. Support for clients looking for international company formation, licensing, consulting, business planning, auditing and trust funds. DetaPlus associates with professionalism, high-value consultations, transparent processes and trust.
           </p>
           <p>
-            DetaPlus is a trading name of STANDARD CORPORATE PARTNER, with principal business at Adams Arcade Ngong Road-Nairobi, Kenya and regulated with license number: RDST-1873. Pricing info is indicative and subject to change. Material on the website is for information purposes only and is not investment or legal advice.
+            DetaPlus is a trading name of DATAPLUS, with principal business at Adams Arcade Ngong Road-Nairobi, Kenya and regulated with license number: RDST-1873. Pricing info is indicative and subject to change. Material on the website is for information purposes only and is not investment or legal advice.
           </p>
           <span className="font-semibold">©2026 DetaPlus</span>
         </div>

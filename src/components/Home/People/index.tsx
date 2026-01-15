@@ -11,7 +11,7 @@ const People = () => {
                 <div className="xl:w-1/2 flex flex-col gap-6">
 
                     <div className="flex flex-col gap-1">
-                        <span className="uppercase text-primary font-semibold tracking-wide">
+                        <span className="uppercase text-[#814AC8] dark:text-[#9D6EDB] font-semibold tracking-wide">
                             About us
                         </span>
                         <h2 className="text-midnight_text text-3xl md:text-4xl font-bold">
@@ -19,21 +19,21 @@ const People = () => {
                         </h2>
                     </div>
 
-                    <p className="text-black/70 leading-relaxed">
+                    <p className="text-white/70 leading-relaxed">
                         Detaplus is committed to providing top-tier corporate legal services with a high degree
                         of transparency for clients all over the globe. We foster FinTech projects and
                         international business activities through company registration, crypto-related
                         compliance assistance, and other services that help you obtain financial licenses.
                     </p>
 
-                    <div className="bg-white px-6 py-3 rounded-xl text-primary text-sm font-semibold w-fit">
+                    <div className="bg-white px-6 py-3 rounded-xl text-[#814AC8] dark:text-[#9D6EDB] text-sm font-semibold w-fit">
                         Get company formations, VASP & FinTech Licenses at reasonable fixed costs
                     </div>
 
                     <div className="pt-2 hidden xl:block">
                         <Link
                             href="/about-us"
-                            className="inline-flex items-center justify-center bg-primary text-white px-6 py-3 rounded-full font-medium hover:bg-primary/90 transition"
+                            className="inline-flex items-center justify-center bg-[#814AC8] dark:bg-[#9D6EDB] text-white px-6 py-3 rounded-full font-medium hover:bg-[#814AC8]/90 transition"
                         >
                             Learn about Detaplus
                         </Link>
@@ -47,7 +47,7 @@ const People = () => {
                         alt="Your personal legal team in your pocket"
                         width={356}
                         height={337}
-                        className="h-full w-auto"
+                        className="h-full w-auto fill-[#814AC8] dark:fill-[#9D6EDB]"
                         priority
                     />
                 </div>

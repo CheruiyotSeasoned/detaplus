@@ -59,7 +59,7 @@ const Header: React.FC = () => {
       {/* Fixed Header */}
       <div
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          sticky ? 'shadow-lg bg-white' : 'bg-white'
+          sticky ? 'shadow-lg bg-[#814AC8]' : 'bg-[#814AC8]'
         }`}
       >
         {/* Top Header */}

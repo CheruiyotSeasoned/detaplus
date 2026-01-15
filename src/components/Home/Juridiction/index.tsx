@@ -308,9 +308,9 @@ const ServicesSections = () => {
   };
 
   const ServiceCard = ({ service }: { service: Service }) => (
-    <div className="bg-white rounded-xl shadow-lg p-6 flex gap-4 h-full transition-all hover:bg-blue-600 hover:text-white group">
+    <div className="bg-[#814AC8] rounded-xl shadow-lg p-6 flex gap-4 h-full transition-all hover:bg-[#814AC8] hover:text-white group">
       <div className="flex flex-col items-center gap-2.5 w-8">
-        <div className="w-8 h-6 rounded border border-gray-300 overflow-hidden flex items-center justify-center text-2xl group-hover:bg-white">
+        <div className="w-8 h-6 rounded border border-gray-900 overflow-hidden flex items-center justify-center text-2xl group-hover:bg-[#814AC8]">
           {service.flag}
         </div>
         <div className="w-px bg-gray-300 flex-1"></div>
@@ -320,7 +320,7 @@ const ServicesSections = () => {
           <a href={service.url} className="block">
             <h4 className="text-xl font-semibold">{service.title}</h4>
           </a>
-          <span className="block text-lg text-blue-600 font-semibold group-hover:text-white">
+          <span className="block text-lg text-blue-black font-semibold group-hover:text-white">
             {service.price}
           </span>
         </div>
@@ -336,7 +336,7 @@ const ServicesSections = () => {
           <span className="text-sm px-4 py-1 rounded bg-white border text-black border-gray-300 group-hover:bg-white group-hover:text-black">
             {service.tax}
           </span>
-          <span className="text-sm text-blue-600 bg-gray-100 px-4 py-1 rounded group-hover:bg-blue-500 group-hover:text-white">
+          <span className="text-sm text-[#814AC8] bg-gray-100 px-4 py-1 rounded group-hover:bg-[#000] group-hover:text-white">
             {service.timeline}
           </span>
         </div>
@@ -349,11 +349,11 @@ const ServicesSections = () => {
     : services.licenses[activeSubTab.licenses];
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-12 bg-dark" id="juridiction-section">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-end gap-6 mb-8">
           <div className="flex flex-col gap-4">
-            <span className="uppercase text-blue-600 font-semibold">
+            <span className="uppercase text-[#814AC8] font-semibold">
               Which jurisdiction and license to choose for your project
             </span>
             <h2 className="text-4xl font-bold">
@@ -369,8 +369,8 @@ const ServicesSections = () => {
               onClick={() => setActiveMainTab('company')}
               className={`pb-4 px-2 font-semibold transition-colors ${
                 activeMainTab === 'company'
-                  ? 'text-blue-600 border-b-2 border-blue-600'
-                  : 'text-gray-600 hover:text-blue-600'
+                  ? 'text-[#814AC8] border-b-2 border-[#814AC8]'
+                  : 'text-white hover:text-blue-600'
               }`}
             >
               Company formation
@@ -379,8 +379,8 @@ const ServicesSections = () => {
               onClick={() => setActiveMainTab('licenses')}
               className={`pb-4 px-2 font-semibold transition-colors ${
                 activeMainTab === 'licenses'
-                  ? 'text-blue-600 border-b-2 border-blue-600'
-                  : 'text-gray-600 hover:text-blue-600'
+                  ? 'text-[#814AC8] border-b-2 border-[#814AC8]'
+                  : 'text-white hover:text-[#814AC8]'
               }`}
             >
               FinTech Licenses
@@ -399,7 +399,7 @@ const ServicesSections = () => {
                     onClick={() => setActiveSubTab({ ...activeSubTab, company: region })}
                     className={`px-6 py-2 rounded-full font-medium transition-all ${
                       activeSubTab.company === region
-                        ? 'bg-blue-600 text-white'
+                        ? 'bg-[#814AC8] text-white'
                         : 'bg-white text-gray-700 hover:bg-gray-100'
                     }`}
                   >

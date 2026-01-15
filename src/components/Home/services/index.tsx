@@ -16,16 +16,16 @@ const services: Service[] = [
         title: 'Crypto Licenses',
         description: 'Find the best crypto license and legal set-up for your use case.',
         href: '/crypto-license/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/Frame-30.png',
+        imgSrc: '/images/services/crypto.png',
         imgAlt: 'Crypto Licenses image',
-        imgWidth: 142,
-        imgHeight: 327,
+        imgWidth: 60,
+        imgHeight: 60,
     },
     {
         title: 'Investment Licenses',
         description: 'Increase your market share & license your investment services.',
         href: '/investment-license/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/new-icons.png',
+        imgSrc: '/images/services/investment.png',
         imgAlt: 'Investment Licenses image',
         imgWidth: 120,
         imgHeight: 120,
@@ -34,7 +34,7 @@ const services: Service[] = [
         title: 'Bank License, Payment Institution, EMI',
         description: 'Become a licensed Payment Institution (PI) or Electronic Money Institution (EMI) globally.',
         href: '/banking-license/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2024/01/purse.svg',
+        imgSrc: '/images/services/banking.svg',
         imgAlt: 'Bank License, Payment Institution, EMI image',
         imgWidth: 120,
         imgHeight: 121,
@@ -43,7 +43,7 @@ const services: Service[] = [
         title: 'Gambling & Gaming License',
         description: 'License your business: online casino, betting, lottery, mobile gambling, and much more.',
         href: '/gambling-license/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/elevator.png',
+        imgSrc: '/images/services/gambling.png',
         imgAlt: 'Gambling & Gaming License image',
         imgWidth: 120,
         imgHeight: 120,
@@ -52,7 +52,7 @@ const services: Service[] = [
         title: 'Bank Account Opening',
         description: 'Get assistance in opening a bank account for your existing company.',
         href: '/business-bank-account/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/bag.png',
+        imgSrc: '/images/services/bag.png',
         imgAlt: 'Bank Account Opening image',
         imgWidth: 120,
         imgHeight: 121,
@@ -61,7 +61,7 @@ const services: Service[] = [
         title: 'Company Registration',
         description: 'Compare the best jurisdictions for doing business and register your company.',
         href: '/company-registration/',
-        imgSrc: 'https://legalbison.com/wp-content/uploads/2023/11/doc.png',
+        imgSrc: '/images/services/doc.png',
         imgAlt: 'Company Registration image',
         imgWidth: 152,
         imgHeight: 89,
@@ -70,10 +70,10 @@ const services: Service[] = [
 
 const ServicesSection: React.FC = () => {
     return (
-        <section className="py-12 md:py-16 lg:py-20 bg-gray-50">
+        <section className="py-12 md:py-16 lg:py-20 bg-dark" id="services-section">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#814AC8] dark:text-[#9D6EDB] mb-4">
                         Our Services
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -98,6 +98,8 @@ const ServicesSection: React.FC = () => {
                                     <Image
                                         src={service.imgSrc}
                                         alt={service.imgAlt}
+                                        width={service.imgWidth}
+                                        height={service.imgHeight}
                                         className="object-contain"
                                         loading="lazy"
                                     />
@@ -111,7 +113,7 @@ const ServicesSection: React.FC = () => {
                                     {service.description}
                                 </p>
 
-                                <div className="mt-4 flex items-center text-blue-600 font-medium text-sm group-hover:gap-2 transition-all">
+                                <div className="mt-4 flex items-center text-[#814AC8] dark:text-[#9D6EDB] font-medium text-sm group-hover:gap-2 transition-all">
                                     <span>Learn more</span>
                                     <svg
                                         className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform"

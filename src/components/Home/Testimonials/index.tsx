@@ -34,21 +34,21 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section className="py-12 xl:pt-16 bg-white" id="slider-testimonials">
+    <section className="py-12 xl:pt-16 bg-dark" id="slider-testimonials">
       <div className="container">
 
         {/* Header */}
         <div className="flex flex-col gap-1 max-w-2xl">
-          <span className="uppercase text-primary text-sm font-semibold">
+          <span className="uppercase text-[#814AC8] dark:text-[#9D6EDB] text-sm font-semibold">
             Stories of our clients and how they went beyond with our assistance
           </span>
-          <h2 className="text-midnight_text text-3xl md:text-4xl font-bold">
+          <h2 className="text-midnight_text  text-[#814AC8] dark:text-[#9D6EDB] text-3xl md:text-4xl font-bold">
             Learn about the success of our clients first-hand
           </h2>
         </div>
 
         {/* Slider */}
-        <div className="mt-8 xl:mt-12">
+        <div className="mt-8 xl:mt-12 bg-others-gray-40 p-6 xl:p-8 rounded-xl">
           <Splide
             options={{
               perPage: 2,
@@ -77,7 +77,7 @@ const Testimonials = () => {
 
                   {/* Content */}
                   <div className="flex flex-col gap-4 flex-1">
-                    <h3 className="text-xl xl:text-2xl font-semibold text-primary leading-tight">
+                    <h3 className="text-xl xl:text-2xl font-semibold text-[#814AC8] dark:text-[#9D6EDB] leading-tight">
                       {item.title}
                     </h3>
 

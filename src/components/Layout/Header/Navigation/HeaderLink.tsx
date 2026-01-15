@@ -18,7 +18,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
       <Link
         href={item.href}
         className={`text-base font-medium flex items-center gap-1 hover:text-primary ${
-          path === item.href ? 'text-primary' : 'text-black'
+          path === item.href ? 'text-primary' : 'text-white'
         }`}
       >
         {item.label}
@@ -44,7 +44,7 @@ const HeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
 
       {/* Dropdown */}
       {submenuOpen && item.submenu && (
-        <div className="absolute left-0 mt-2 w-60 bg-white shadow-lg rounded-lg z-50">
+        <div className="absolute left-0 mt-2 w-60 bg-[#0A0A0A] shadow-lg rounded-lg z-50">
           {item.submenu.map((subItem, idx) => (
             <Link
               key={idx}
