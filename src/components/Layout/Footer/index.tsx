@@ -143,7 +143,7 @@ const Footer = () => {
           <div className="py-6 xl:py-0">
             <div className="max-w-[220px]">
               <Image
-                src="/images/logo/logo.svg"
+                src="/images/logo/logo-white.svg"
                 alt="DetaPlus Logo"
                 width={219}
                 height={48}

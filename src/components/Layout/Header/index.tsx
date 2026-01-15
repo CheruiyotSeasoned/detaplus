@@ -59,7 +59,7 @@ const Header: React.FC = () => {
       {/* Fixed Header */}
       <div
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          sticky ? 'shadow-lg bg-[#814AC8]' : 'bg-[#814AC8]'
+          sticky ? 'shadow-lg bg-[#1A2A3A]' : 'bg-transparent'
         }`}
       >
         {/* Top Header */}
@@ -92,9 +92,9 @@ const Header: React.FC = () => {
               className='block lg:hidden p-2 rounded-lg'
               aria-label='Toggle mobile menu'
             >
-              <span className='block w-6 h-0.5 bg-black'></span>
-              <span className='block w-6 h-0.5 bg-black mt-1.5'></span>
-              <span className='block w-6 h-0.5 bg-black mt-1.5'></span>
+              <span className='block w-6 h-0.5 bg-white'></span>
+              <span className='block w-6 h-0.5 bg-white mt-1.5'></span>
+              <span className='block w-6 h-0.5 bg-white mt-1.5'></span>
             </button>
           </div>
         </div>
